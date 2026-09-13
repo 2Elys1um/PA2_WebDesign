@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./../styles/style.css">
+    <link rel="icon" type="image/x-icon" href="./../Pictures/svg/favicon.svg">
+</head>
+<body>
+    <header id="nav-bar" class="container">
+        <a href="#inicio">
+            <img class="nav-img" src="./../Pictures/svg/logo.svg" alt="Logo">
+        </a>
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#sobreNosotros">Sobre Nosotros</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+        <a href="https://github.com/2Elys1um/PA2_WebDesign" target="_blank">
+            <img class="nav-img" src="./../Pictures/svg/github-logo.svg" alt="">
+        </a>
+    </header>
+    <div class="page">
+        <main>
+            <section id="inicio">
+                <div class="container">
+                    <div id="inicio-card">
+                        <h1>Tiendas Giraldes</h1>
+                        <img class="inicio-img" src="./../Pictures/svg/logo.svg" alt="Logo">
+
+                    </div>
+                    
+                </div>
+            </section>
+            <section id="sobreNosotros" class="container">
+                <h2>Sobre nosotros</h2>
+                <div class="popular">
+                    <p>Somos una tienda de ropa ubicados en la avenida Giraldes N° 999 cerca al parque constitución</p>
+                    <br>
+                    <h2>Nuestros productos más populares</h2>
+                    <div class="popular-cards">
+                        <div class="popular-card">
+                            <p><strong>Pantalones domesticos</strong> 100 $</p>
+                            <figure>
+                                <img src="./../Pictures/imágenes/productos-populares/ropa-1.webp" alt="casaca roja">
+                                <figcaption>vendida por ANAKTEC</figcaption>
+                            </figure>
+                        </div>
+                        <div class="popular-card">
+                            <p><strong>Tank top</strong> 100 $</p>
+                            <figure>
+                                <img src="./../Pictures/imágenes/productos-populares/ropa-2.webp" alt="casaca roja">
+                                <figcaption>vendida por FINESE</figcaption>
+                            </figure>
+                        </div>
+                        <div class="popular-card">
+                            <p><strong>Gorra</strong> 100 $</p>
+                            <figure>
+                                <img src="./../Pictures/imágenes/productos-populares/ropa-3.webp" alt="casaca roja">
+                                <figcaption>vendida por Mistful Standard</figcaption>
+                            </figure>
+                        </div>
+                        <div class="popular-card">
+                            <p><strong>Chaqueta negra</strong> 100 $</p>
+                            <figure>
+                                <img src="./../Pictures/imágenes/productos-populares/ropa-4.webp" alt="casaca roja">
+                                <figcaption>vendida por Replay</figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                    <h3>Stock</h3>
+                    <div class="popular-table">
+                        <table>
+                            <tr>
+                                <th>Ropa</th>
+                                <th>Generos (M/F)</th>
+                                <th>Tallas</th>
+                            </tr>
+                            <tr>
+                                <td>Pantalones Domésticos</td>
+                                <td>M</td>
+                                <td>m, x, xl, xxl</td>
+                            </tr>
+                            <tr>
+                                <td>Tank Top</td>
+                                <td>F, M</td>
+                                <td>x</td>
+                            </tr>
+                            <tr>
+                                <td>Gorra</td>
+                                <td>M</td>
+                                <td>sm, m, x, xl, xxl</td>
+                            </tr>
+                            <tr>
+                                <td>Chaqueta Negra</td>
+                                <td>F</td>
+                                <td>x, xl, xxl</td>
+                            </tr>
+                            <tr>
+                                <td>Busos</td>
+                                <td>F, M</td>
+                                <td>sm, m, xxl</td>
+                            </tr>
+                            <tr>
+                                <td>Sombreros</td>
+                                <td>F, M</td>
+                                <td>x, xl, xxl</td>
+                            </tr>
+                            <tr>
+                                <td>Jeans</td>
+                                <td>F</td>
+                                <td>sm, m, x, xl</td>
+                            </tr>
+                            <tr>
+                                <td>Ropa Interior</td>
+                                <td>F, M</td>
+                                <td>sm, m, x</td>
+                            </tr>
+                            </table>
+                    </div>
+                </div>
+
+            </section>
+            <section id="contacto" class="container">
+                <h2>Contáctanos</h2>
+                <div id="form-container">
+                    <form action="">
+                        <label for="fname">Nombre completo: </label>
+                        <input type="text" id="fname" name="fname">
+                        <label for="femail">Email: </label>
+                        <input type="email" id="femail" name="femail">
+                        <label for="ftel">Telefono: </label>
+                        <input type="text" id="ftel" name="ftel">
+                        <label for="fasu">Asunto: </label>
+                        <select id="fasu" name="fasu">
+                            <option value="">Selecciona una opción</option>
+                            <option value="consultar">Consultar sobre nuestros productos</option>
+                            <option value="pedido">Hacer pedido de importación de un producto</option>
+                            <option value="otro">Otro</option>
+                        </select>
+
+                        <input id="submitContacto" type="submit" value="Enviar">
+                    </form>
+                    <div class="ubicacion">
+                        <img src="./../Pictures/imágenes/ubicacion.png" alt="ubicación" usemap="#ubic">
+                        <map name="ubic">
+                            <area shape="rect" coords="160,200,240,240" target="_blank" href="https://www.google.com/maps/place/Int.+Z2,+1+Piso,+Casa+Del+Artesano,+Ca.+Real+485,+Huancayo+12001/@-12.0684975,-75.2103982,188m/data=!3m2!1e3!5s0x910e964e549df065:0x680dddc81c430db8!4m6!3m5!1s0x910e964f071d86b5:0xf4a775f70e06ca4a!8m2!3d-12.0686069!4d-75.2104706!16s%2Fg%2F11xgy0kzcg!5m1!1e4?entry=ttu&g_ep=EgoyMDI2MDkwOS4wIKXMDSoASAFQAw%3D%3D" alt="">
+                        </map>
+                    </div>
+                </div>
+
+            </section>
+        </main>
+        <footer class="container">
+            <div>
+                <h2>Contacto</h2>
+                <p><strong>Telefono</strong> 999 999 999</p>
+                <p><strong>Dirección</strong> Av. Giraldes N° 999 - Huancayo - Junin</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
